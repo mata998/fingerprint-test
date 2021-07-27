@@ -16,6 +16,8 @@ app.listen(process.env.PORT, () => {
 // DB connection
 connectDB();
 
+// push za herokuss
+
 // Midlewares
 app.use(express.static(publicFolder()));
 app.use(express.json());
